@@ -1,4 +1,7 @@
 print("Bienvenidos al Hotel-PICHINCHA")
+
+print("Elija un piso: ")
+print("0. Lobby")
 # piso = int(input("Ingrese un piso: "))
 # boton = input("CerrarPuerta: ")
 
