@@ -1,4 +1,4 @@
-Pepol = {"Pancho", "Juan", "Pedro", "Maria", "Ana"}
+Pepol = ["Pancho", "Juan", "Pedro", "Maria", "Ana"]
 
 entr = input("Quien esta ingresado a trabajar hoy?: ")
 
