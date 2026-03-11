@@ -1,0 +1,41 @@
+#Listas
+
+# lista = [1, 2, 3, 4, 5]
+
+# for i in lista:
+#    print(i) #Imprime cada uno de los elementos de la lista "lista"
+
+# for i in range(1,10,10):
+#    print(i) #Imprime los números del 0 al 4
+   
+#for i in range(1, 10, 2):
+#    print(i) #Imprime los números del 1 al 9, saltando de 2 en 2
+
+# listo = []
+#x = input("Ingrese un número: ")
+
+# for i in range(5):#Agrega el número ingresado a la lista "listo" 5 veces
+#     x = int(input("Ingrese un número: "))
+#     listo.append(x) 
+# print(listo)
+
+##Tuplas
+
+tupla = (1, 2, True, 3.4, "Hola")
+
+# for i in tupla:
+#    print(i) #Imprime cada uno de los elementos de la tupla "tupla"
+
+
+##Diccionarios
+
+Diccionario = {"nombre": "Juan",
+                "edad": 30,
+                "ciudad": "Madrid"}
+
+# for i in Diccionario:
+#     print(i) #Imprime las claves del diccionario "Diccionario"
+
+for i, j in zip(Diccionario.keys(), Diccionario.values()):
+    print(i, j) #Imprime los valores del diccionario "Diccionario"
+
