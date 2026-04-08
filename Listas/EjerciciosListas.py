@@ -28,20 +28,20 @@
      productos y actualizar el precio de un producto existente.
 """
 #1.
-# conductores = ["Juan", "Maria", "Pedro", "Luisa", "Carlos"]
-# nombre_conductor = input("Ingrese el nombre del conductor: ")
-# if nombre_conductor in conductores:
-#     print(f"El conductor {nombre_conductor} se encuentra en la lista.")
-# else:
-#     print(f"El conductor {nombre_conductor} no se encuentra en la lista.")
+conductores = ["Juan", "Maria", "Pedro", "Luisa", "Carlos"]
+nombre_conductor = input("Ingrese el nombre del conductor: ")
+if nombre_conductor in conductores:
+    print(f"El conductor {nombre_conductor} se encuentra en la lista.")
+else:
+    print(f"El conductor {nombre_conductor} no se encuentra en la lista.")
 
 #2.
-# clientes = {}
-# nombre_cliente = input("Ingrese el nombre del cliente: ")
-# consumo_kwh = float(input("Ingrese el consumo en kWh: "))
-# costo_total = consumo_kwh * 0.15
-# clientes[nombre_cliente] = consumo_kwh
-# print(f"El cliente {nombre_cliente} tiene un consumo de {consumo_kwh} kWh y debe pagar ${costo_total:.2f}.")
+clientes = {}
+nombre_cliente = input("Ingrese el nombre del cliente: ")
+consumo_kwh = float(input("Ingrese el consumo en kWh: "))
+costo_total = consumo_kwh * 0.15
+clientes[nombre_cliente] = consumo_kwh
+print(f"El cliente {nombre_cliente} tiene un consumo de {consumo_kwh} kWh y debe pagar ${costo_total:.2f}.")
 
 #3.
 inventario = {
@@ -66,8 +66,7 @@ if pedido in inventario:
     elif desi == "eliminar":
         eliminar_producto = input("Ingrese el nombre del producto a eliminar: ").lower()
         if eliminar_producto in inventario:
-            #inventario.pop(eliminar_producto)
-            del inventario[eliminar_producto]
+            inventario.pop(eliminar_producto)
             print(f"Producto {eliminar_producto} eliminado del inventario.")
         else:
             print(f"El producto {eliminar_producto} no se encuentra en el inventario.")
