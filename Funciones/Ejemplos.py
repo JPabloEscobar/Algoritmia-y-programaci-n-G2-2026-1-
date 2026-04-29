@@ -84,7 +84,21 @@ def fibonacci(n):
     
 
 
+#posicion = input("Ingrese un valor en donde se va a calcular el numero de Fibonacci: ")
+#resultado = fibonacci(posicion)
+#print(f"El número de Fibonacci en la posición {posicion} es: {resultado}")
 
-posicion = input("Ingrese un valor en donde se va a calcular el numero de Fibonacci: ")
-resultado = fibonacci(posicion)
-print(f"El número de Fibonacci en la posición {posicion} es: {resultado}")
+###Metodo de la borbuja
+
+x = [1, 5, 3, 2, 4]
+
+def bubble_sort(arr):
+    n = len(arr)
+    # Recorremos todos los elementos del arreglo
+    for i in range(n):
+        # Los últimos i elementos ya están en su lugar
+        for j in range(0, n - i - 1):
+            # Intercambiamos si el elemento encontrado es mayor que el siguiente
+            if arr[j] > arr[j + 1]:
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+    return arr

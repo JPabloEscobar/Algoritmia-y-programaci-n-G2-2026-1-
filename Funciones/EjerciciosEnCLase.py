@@ -17,3 +17,5 @@ un string y lo devuelva invertido.
 5. Este ejercicio sustituye la lógica de un acumulador (reduce) o la función
 max(). Queremos encontrar el número más grande comparando elementos uno a uno.
 """
+
+####New-Item nombre del archivo(.py) #Es para crear un archivo desde el power shell, no es parte del código a escribir en el ejercicio

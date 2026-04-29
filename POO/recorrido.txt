@@ -1,0 +1,20 @@
+=== Registro de Recorrido ===
+Fecha y hora  : 2026-04-27 13:18:55
+Distancia     : 3.295 km  (3295.0 m)
+==============================
+
+=== Registro de Recorrido ===
+Fecha y hora  : 2026-04-28 16:01:16
+Distancia     : 2.995 km  (2995.0 m)
+==============================
+
+=== Registro de Recorrido ===
+Fecha y hora  : 2026-04-28 16:26:01
+Distancia     : 1.455 km  (1455.0 m)
+==============================
+
+=== Registro de Recorrido ===
+Fecha y hora  : 2026-04-29 11:40:10
+Distancia     : 2.370 km  (2370.0 m)
+==============================
+

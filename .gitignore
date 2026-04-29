@@ -1,4 +1,6 @@
-# Ignorar el entorno virtual de Python
 .venv/
 venv/
 env/
+.txt
+.xlxs
+.csv
